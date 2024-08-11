@@ -22,7 +22,7 @@
 <p align="left">
 <a href="https://www.linkedin.com/in/nandini-jaiswal-cmi/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="www.linkedin.com/in/nandini-jaiswal-cmi" height="30" width="40" /></a>
 <a href="https://api.whatsapp.com/send?phone=7439860153" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg" alt="7439860153" height="30" width="40" /></a>
-
+<br>
 <b>CORIOLIS TECHNOLOGIES '24</b>:
 <br>
 I was a summer intern at [Coriolis Technologies](https://www.coriolis.co.in/) for MAY-JULY 2024. I will be soon adding the report explaining my summer internship project on Web UI Automation.
