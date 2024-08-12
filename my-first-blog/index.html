@@ -1,0 +1,418 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Coriolis: Summer intern</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Bad Script"
+      rel="stylesheet"
+    />
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+        color: #333;
+      }
+
+      .header {
+        background-image: url("assets/img/Mikasa.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 570px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      h1 {
+        color: #fff;
+        font-size: 36px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+
+      .content {
+        padding: 20px;
+        width: 850px;
+        margin: auto;
+      }
+
+      h2 {
+        color: #333;
+        margin-bottom: 10px;
+      }
+
+      p {
+        margin-bottom: 15px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        line-height: 1.6;
+        font-weight: 451;
+      }
+
+      .post-meta {
+        font-size: 14px;
+        color: #999;
+        margin-bottom: 20px;
+      }
+
+      .post-content img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1
+        style="
+          position: absolute;
+          left: 20px;
+          top: 490px;
+          font-family: 'Bad Script', sans-serif;
+          color: rgb(60, 44, 2);
+        "
+      >
+        “watashi wa tsuyoi”
+      </h1>
+    </div>
+
+    <div class="content">
+      <div class="post">
+        <h2 style="font-size: 27px">
+          Coriolis Technologies: My experience as a Summer Intern.
+        </h2>
+        <p class="post-meta">Published on August 11, 2024</p>
+        <div class="post-content">
+          <h3>A little bit about Myself:</h3>
+          <p style="font-size: 13pt; justify-content: space-evenly">
+            Hey everyone, I'm Nandini, a senior pursuing my M.Sc degree in Data
+            Science from CMI. Recently, I completed my 2024 summer internship on
+            <b> Web UI Automation</b> at Coriolis Technologies. In this blog, I
+            have shared my overall experience. <br />
+            If you want to know me better, you might want to visit my
+            <a
+              href="https://www.linkedin.com/in/nandini-jaiswal-cmi/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn profile</a
+            >,
+            <a
+              href="https://github.com/Nandini-Jaiswal"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub profile</a
+            >
+            or go through my <a href="../">portfolio</a>. <br />
+            Here is an image that annotated the UI elements of a page:
+          </p>
+          <br /><br />
+          <img
+            width="800px"
+            src="assets/coriolis-img/annotated.jpg"
+            alt="An annotated image"
+          />
+          <h3>What is "<b>Automated Web UI testing</b>":</h3>
+          <p style="font-size: 13pt; justify-content: space-evenly">
+            We all have heard about <b>Selenium</b> and <b>cypress</b>. Writing
+            a e2e test using those technologies requires proficiency in
+            programming languages. Automated UI testing is a critical process
+            aimed at validating the functionality, usability, and consistency of
+            user interfaces without manual intervention. You can consider it as
+            a tool like cypress but requires you only to write test-cases in
+            english. This project focuses on the same and uses Machine Learning
+            and Artificial Intelligence to streamline the UI testing process. By
+            leveraging GPT-3 to generate test steps based on predefined test
+            cases, we execute these steps automatically against a designated
+            website. The outcomes are then assessed to determine the success or
+            failure of each test case. This report presents the methodology,
+            challenges, and outcomes of implementing Automated Web UI testing in
+            a real-world scenario.
+          </p>
+          <br /><br /><br />
+          <img width="800px" src="assets/img/Coriolis.png" alt="Coriolis" />
+          <br /><br />
+          <h3>Problem Statement:</h3>
+          <p style="font-size: 13pt; justify-content: space-evenly">
+            UI testing is a critical process aimed at validating the
+            functionality, usability, and consistency of user interfaces without
+            manual intervention. The objective of this project is to automate
+            the UI testing process of a web application.
+          </p>
+          <ul>
+            <li>
+              Manual UI testing can be time-consuming and prone to errors,
+              especially as applications grow in complexity.
+            </li>
+            <li>
+              By leveraging automated UI testing, we aim to address these
+              challenges and streamline the testing process.
+            </li>
+            <li>
+              This project can be considered an alternative to UI testing tools
+              such as Selenium and Cypress. They make use of element ID or to
+              identify elements to take action on.
+            </li>
+            <li>
+              Here we are trying a new approach to understand the look and feel
+              of the application using AI/ML and leverage that to do actions.
+            </li>
+          </ul>
+          <p>Key challenges include:</p>
+          <ul>
+            <li>
+              Developing a robust test framework that can automatically navigate
+              through the UI of web applications.
+            </li>
+            <li>
+              Generating accurate and comprehensive test steps from predefined
+              test cases using natural language processing techniques like
+              GPT-3.5.
+            </li>
+            <li>
+              Getting the pixel coordinates of the UI elements required for the
+              test cases.
+            </li>
+            <li>
+              Executing the generated test steps automatically and verifying the
+              success or failure of each test case.
+            </li>
+          </ul>
+          <p>
+            This project aims to demonstrate the feasibility and effectiveness
+            of Automated Web UI testing using Artificial Intelligence and
+            Machine Learning to enhance the reliability and efficiency of
+            software testing processes.
+          </p>
+          <h3>Test Steps Input</h3>
+          <p>
+            On test-case and test-steps input, we use GPT-3.5 to generate the
+            commands that will direct the testing. <br />
+            The test steps are the following:
+          </p>
+          <ol>
+            <li><span>Click</span> on the <span>Servers</span> tab.</li>
+            <li><span>Click</span> on the <span>Search</span> textbox.</li>
+            <li><span>Type</span> hercules.</li>
+            <li><span>Verify</span>, it by a message <span>hercules</span>.</li>
+            <li>
+              <span>Capture</span> the screenshot for <span>verification</span>.
+            </li>
+          </ol>
+          <p>
+            GPT-3.5 takes the previous test case and test steps and returns the
+            following commands that will direct the UI automation:
+          </p>
+          <pre>[
+    { "testcase": "<span class="highlight-yellow">Search in Servers tab</span>"},
+    { "<span class="highlight-blue">test id</span>": "<span class="highlight-yellow">id</span>"},
+    { "<span class="highlight-blue">click</span>": "<span class="highlight-yellow">Servers tab</span>"},
+    { "<span class="highlight-blue">click</span>": "<span class="highlight-yellow">Search textbox</span>"},
+    { "<span class="highlight-blue">type</span>": "<span class="highlight-yellow">hercules</span>"},
+    { "<span class="highlight-blue">verify</span>": "<span class="highlight-yellow">message</span>", "text": "<span class="highlight-yellow">hercules</span>"},
+    { "<span class="highlight-blue">capture screenshot</span>": "<span class="highlight-yellow">verification</span>"}
+]</pre>
+          <h3>The workflow:</h3>
+          <p>
+            To carry out the test steps, the model must be able to click on the
+            particular UI elements such as Servers tab, Search textbox etc and
+            verify that there exists some verification messages such as texts.
+          </p>
+          <ol>
+            <li>
+              <span style="font-weight: bold">YOLOv8</span>: YOLOv8 model
+              performs UI elements detection i.e given a webpage, returns the
+              annotated UI elements.
+            </li>
+            <li>
+              <span style="font-weight: bold">GPT-4 Vision</span>: The GPT-4v
+              model detects the intended UI elements among many and return their
+              coordinates.
+            </li>
+            <li>
+              <span style="font-weight: bold">PaddleOCR</span>: After employing
+              the previous approach, either some of the UI elements remain
+              undetected by ML model or their accuracy were compromised. This
+              became the motivation for including the OCR technique which works
+              better with text recognition and subsequently increased the
+              accuracy of the process from 60% to 80%.
+            </li>
+          </ol>
+          <p><b>The whole workflow pipeline works like this:</b></p>
+          <ul>
+            <li>
+              On image input, the pre-trained model uses
+              <a
+                href="https://github.com/ultralytics/ultralytics"
+                target="_blank"
+                rel="noopener noreferrer"
+                >YOLOv8</a
+              >
+              to detect UI elements.
+            </li>
+            <li>
+              Based on the button type and the button content, the returned JSON
+              and UI elements are divided into the following parts:
+            </li>
+            <pre>
+        blacked_elements = ['icon', 'button', 'block', 'tab', 'option']
+        normal_elements = ['textbox', 'radio', 'toggle', 'dropdown']
+        checkboxes_elements = ['check']
+        ocr_elements = ['tab', 'text']
+    </pre
+            >
+            <ol>
+              <li>
+                <strong>Normal UI elements:</strong> This set contains all the
+                UI elements that need more context than the element itself,
+                e.g., textbox; the textbox needs the name of the textbox to
+                identify it.
+              </li>
+              <li>
+                <strong>Blacked UI elements:</strong> This set contains all the
+                elements which can be identified by the content inside it, e.g.,
+                button.
+              </li>
+              <li>
+                <strong>Checkbox UI elements:</strong> This set contains all the
+                checkbox UI elements.
+              </li>
+              <li>
+                <strong>OCR UI elements:</strong> This set contains all the
+                elements which can be identified by the content inside it or may
+                not be detected by YOLOv8 with good accuracy.
+              </li>
+            </ol>
+            <li>
+              For normal elements, we will create an image containing all the
+              annotated normal UI elements. The context is needed for the GPT to
+              answer.
+            </li>
+            <li>
+              For blacked elements, we will create multiple images containing
+              all the blacked elements, and everything else will be covered with
+              black. As those UI elements have the content inside it, GPT will
+              have better accuracy identifying this way.
+            </li>
+            <li>
+              For checkbox elements, we will just annotate the checkboxes as
+              context is needed.
+            </li>
+            <li>
+              The OCR elements need better accuracy, so we will use text
+              recognition tools to annotate them.
+            </li>
+          </ul>
+          <img
+            width="800px"
+            src="assets/coriolis-img/workflow.png"
+            alt="Google Summer of Code"
+          />
+          <p><b>The model follows these steps:</b></p>
+          <ul>
+            <li>
+              First, the pre-trained YOLOv8 model annotates the UI elements and
+              generates a JSON file.
+            </li>
+            <li>
+              According to the elements, it is divided into black, ocr, normal,
+              and checkbox elements.
+            </li>
+            <li>
+              Black elements are divided into further images to avoid clashing.
+            </li>
+            <li>
+              Then the pre-trained OCR model annotates all the text inside the
+              web page and generates a JSON.
+            </li>
+            <li>Then all the UI elements are marked with a target number.</li>
+            <li>
+              Now on query, the model first infers the type of the UI element,
+              and then according to the type, it chooses a process.
+            </li>
+            <li>
+              If the element belongs to the blacked elements, we give all the
+              blacked images to GPT-4V and ask it to return the target number
+              for the element.
+            </li>
+            <li>
+              If it's an OCR element, then we go through the OCR JSON and find
+              the target number of the bounding box using fuzzy matching. If
+              there are multiple such boxes, we take
+              <strong>IoU (Intersection over Union)</strong> to find the best
+              match.
+            </li>
+            <li>
+              If the element is a normal element, then we ask GPT-4V to find a
+              context and return the element target number.
+            </li>
+            <li>
+              Similarly, for checkbox elements, we will ask GPT-4V to return the
+              checkbox with a similar context.
+            </li>
+            <li>
+              Option icons are generally associated with a checkbox. So if the
+              input element is an option icon, we find the checkbox with the
+              similar context and then by coordinate mapping, we find the target
+              number of the option icon.
+            </li>
+            <li>
+              After finding the target number from the JSON, we extract the
+              coordinates of the target of the UI element and return the
+              midpoint of that bounding box.
+            </li>
+            <li>
+              Everything is written in a Flask server, and on input of a query
+              element and an image, we run the above-mentioned model.
+            </li>
+            <li>
+              To verify a query element and the testcase, we find a verification
+              message using OCR and return the verification status.
+            </li>
+          </ul>
+          <br />
+          You can view the project report
+          <a
+            href="https://vv1.coriolis.co.in/projects/#/project/55"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            here</a
+          >.
+          <h3>Thanksgiving:</h3>
+          <p style="font-size: 13pt; justify-content: space-evenly">
+            All of these wouldn't be possible without the support of my parents,
+            friends and teachers. I'm thankful to them for all the help and
+            encouragement.
+            <br />
+            My deep gratitude goes first to the Coriolis Management and the CEO
+            Mr. Basant Rajan for providing me the opportunity to pursue an
+            internship here. I am indebted to my mentors Mr. Sudhir Kumar and
+            Mr. Rohan Nandode, who guided me throughout my internship. Their
+            unwavering enthusiasm and tireless efforts have constantly triggered
+            me for an exhaustive exploration. This internship enriched me with
+            so much knowledge and hands-on experience that it will always remain
+            close to my heart. I could not ask for anything more than what I got
+            here.
+          </p>
+
+          <br /><br />
+          <a
+            href="https://www.youtube.com/watch?v=-AwYcE5LmHQ"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img width="850px" src="assets/img/unstoppable.jpg" alt="Mikasa" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
