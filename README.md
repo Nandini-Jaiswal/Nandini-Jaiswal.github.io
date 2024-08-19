@@ -25,7 +25,7 @@
 <br>
 <b>CORIOLIS TECHNOLOGIES '24</b>:
 <br>
-I was a summer intern at [Coriolis Technologies](https://www.coriolis.co.in/) for MAY-JULY 2024. I will be soon adding the report explaining my summer internship project on Web UI Automation.
+I was a summer intern at Coriolis Technologies for MAY-JULY 2024. <a href="https://vv1.coriolis.co.in/projects/#/project/55" target="blank">Here</a> is my report. You may also go through my <a href="./my-first-blog/index.html" target="blank">blog</a>.
 <br><br><br>
 
 
